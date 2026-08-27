@@ -29,8 +29,8 @@ Town `view-town-*.jpg` are **not** the Town View. Palette/reference only.
 
 ## What is on GitHub vs disk
 
-- This repo: HTML + docs + camera grammar + 480px **previews** under `sprites/preview/` when they fit the file API.
-- Full RGBA sprites and 61 source jpgs stay on Danny’s PC (`Desktop/CYBER TOWN/sprites`, `pieces/`). Too large for the file API.
+- This GitHub repo: docs + camera grammar + RUNTIME.md + CATALOG.md + GROK-FOR-CHATGPT.md. No game HTML, no sprites, no `sprites/preview/`.
+- Canonical HTML (`game/little-mind-layered-town-v6.html`) and full RGBA sprites stay on Danny’s PC (`Desktop/CYBER TOWN/sprites`, `pieces/`). Too large for the file API / still GCM-blocked.
 
 ## Next (Pass A objects)
 
