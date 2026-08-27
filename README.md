@@ -1,20 +1,17 @@
 # little-mind-cyber
 
-Public so **Grok online** and **ChatGPT online** can read the game direction and art.
+Layered Town v6. Cyberpunk SNES pixels. Visual resolution follows Bean.
 
-Live: https://github.com/Kawhooped/little-mind-cyber (branch `dd-main`)
-
-## Lock
-Pixel cyberpunk harbor town. Style lock is the 09_04_42 city sheet. Visual resolution follows Bean. Small settlement, mature tech, vertical.
+**Coordination:** [Kawhooped/ai-coordination](https://github.com/Kawhooped/ai-coordination) — only when Danny says. No hourly auto-loop.
 
 ## Play
-`game/little-mind-layered-town-v6.html`
+http://127.0.0.1:8875/cyber/
 
-## Art
-See `CATALOG.md`. Buildings, interiors, objects, workers, factories, people.
-
-## Camera
-Town (compressed) → dollhouse high-rise → room. Simulation stays detailed when graphics compress.
+## Canonical
+- Game: `game/little-mind-layered-town-v6.html`
+- Camera: `_ref/camera-grammar.txt`
+- Runtime map: `RUNTIME.md`
+- Style lock: Downloads `ChatGPT Image Aug 26, 2026, 09_04_42 PM.png` (not in git; too big)
 
 ## Do not
-Cozy isometric Frog Mart look. Do not invent passwords. Do not buy domains. Bárbara academy ZIP is queued separately, not this repo.
+Paste town paintings as Town View. Edit `TOWN_SYSTEMS` / fridge / jobs for prettier graphics. Cozy isometric Frog Mart look.
