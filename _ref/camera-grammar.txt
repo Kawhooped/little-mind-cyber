@@ -1,0 +1,54 @@
+Exactly. I think we now have the **camera grammar** for the game.
+
+The mistake would be trying to show the entire town at the same level of detail all the time. Instead, the world should **collapse and expand around Bean**.
+
+## Three visual scales
+
+### 1. Town View
+
+The image we just made.
+
+```text
+mountains / sky
+↓
+compressed skyline
+↓
+a few recognizable high-rises
+↓
+factories / roads / river / lights
+↓
+tiny activity
+```
+
+You understand the whole settlement at a glance.
+
+We don't need to see every house. A population of several thousand can visually compress into:
+
+* 3–6 prominent towers
+* industrial structures
+* clusters of smaller buildings
+* lights
+* traffic
+* smoke/steam
+* trains/trucks
+* distant movement
+
+The **simulation remains detailed even though the graphics are compressed**.
+
+---
+
+# 2. Bean / Building View
+
+This should probably become our primary game view.
+
+Imagine one high-rise taking up most of the phone screen, viewed from a slight angle. SNES dollhouse. Exterior wall partly hides rooms. Bean's floor opens visually.
+
+# 3. Room / Situation View
+
+When something important happens, we push closer.
+
+# Visual resolution follows Bean
+
+TOWN compressed → Bean's block detailed → Bean's building very detailed → Bean's floor fully animated → current situation maximum detail.
+
+Small settlement, mature cyberpunk-era technology, 4,000–8,000 people, two groceries, one clinic, one depot. Cadastral grid underneath; player should almost never see the raw grid.
